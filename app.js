@@ -2,6 +2,7 @@
 var multer = require('multer'),
 	app = require('./base_serv');
 
+
 //Multer Config
 app.use(multer({
 	dest: './uploads/',
@@ -18,6 +19,7 @@ app.use(multer({
 		};
 	},
 	onFileUploadComplete: function (file) {
+		//Verbose console
 		/*console.log(
 		  	'Field Name: ' + file.fieldname + 
 		  	'\nOriginal Name: ' + file.originalname + 
@@ -31,7 +33,6 @@ app.use(multer({
 
 //Upload Route
 app.post('/api/upload', function(req, res, next) {
-	//console.log(req.body) // form fields
     console.log(req.files.file);
     res.status(204).end();
     //console.log(querystring.stringify(req.files[0]))

@@ -7,6 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "github.com/Joqui2108/Tajo"
+    },
   "keywords": [
     "file host",
     "tajo",
@@ -15,6 +19,10 @@
   ],
   "author": "Joqui2108",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Joqui2108/Tajo/issues"
+    },
+  "homepage": "https://github.com/Joqui2108/Tajo",
   "dependencies": {
     "body-parser": "^1.12.0",
     "express": "^4.12.2",

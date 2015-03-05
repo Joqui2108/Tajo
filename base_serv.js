@@ -19,6 +19,7 @@ app.get('/', function(req, res, next){
  	next();
 });
 
+
 //Download
 app.get('/:file(*)', function(req, res, next){
   var file = req.params.file,
@@ -26,5 +27,6 @@ app.get('/:file(*)', function(req, res, next){
 
   res.download(FilePath);
 });
+
 
 module.exports = app;
