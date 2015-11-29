@@ -1,23 +1,15 @@
 # Tajo
-Tajo is a NodeJS encrypted, secure and temporary file host.
+Tajo is a NodeJS encrypted, secure and ephemeral file host.
+*(encrypted and secure not yet)*
 
 ## About
 
-Inspired by http://pomf.se
-
-Coded by an amateur fool.
-
-The idea is to make a MEAN file-host, encrypting the files, without keeping logs, and deleting files every hour.
-
+Inspired by [pomf.se](http://pomf.se), [uguu.se](http://uguu.se) & [file.io](http://file.io)
 
 
 ## TODO
--Integrating MongoDB for file indexing
+- Add render engine and make html form
 
--Add render engine and make html form
+- Generating SSL key and Forcing HTTPS
 
--Generating SSL key and Forcing HTTPS
-
--Client-side encryption
-
-MORE MORE AND MORE
+- Client-side encryption
